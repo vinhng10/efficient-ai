@@ -1,0 +1,24 @@
+{
+    "env": {
+        "CONDA_PREFIX": "/home/vinh/miniconda3"
+    },
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:CONDA_PREFIX}/lib/python3.12/site-packages/torch/include",
+                "${env:CONDA_PREFIX}/lib/python3.12/site-packages/torch/include/torch/csrc/api/include",
+                "${env:CONDA_PREFIX}/lib/python3.12/site-packages/torch/include/torch/csrc/api/include/torch",
+                "${env:CONDA_PREFIX}/lib/python3.12/site-packages/torch/include/THC",
+                "${env:CONDA_PREFIX}/include/python3.12"
+            ],
+            "defines": [],
+            "compilerPath": "${env:CONDA_PREFIX}/bin/nvcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
